@@ -69,3 +69,13 @@ gem 'react-rails'
 
 # Add Boostrap
 gem 'bootstrap', '~> 4.1.3'
+
+gem 'validates_timeliness', '~> 5.0.0.alpha3'
+
+
+
+# Run against the latest stable release
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0.0'
+  gem 'factory_bot_rails'
+end
